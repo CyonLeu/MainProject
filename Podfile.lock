@@ -1,0 +1,35 @@
+PODS:
+  - CTMediator (46)
+  - MediatorTarget (0.1.0):
+    - CTMediator
+  - ModuleA (0.1.0):
+    - MediatorTarget
+  - ModuleB (0.1.0):
+    - MediatorTarget
+
+DEPENDENCIES:
+  - MediatorTarget (from `~/Documents/PubLib/ModuleLib/MediatorTarget`)
+  - ModuleA (from `~/Documents/PubLib/ModuleLib/ModuleA`)
+  - ModuleB (from `~/Documents/PubLib/ModuleLib/ModuleB`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  MediatorTarget:
+    :path: "~/Documents/PubLib/ModuleLib/MediatorTarget"
+  ModuleA:
+    :path: "~/Documents/PubLib/ModuleLib/ModuleA"
+  ModuleB:
+    :path: "~/Documents/PubLib/ModuleLib/ModuleB"
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  MediatorTarget: c278d92ddce3dd46ed944e3860dd77e5335e275f
+  ModuleA: 84f70fb57d0f7538467833c8bb7aa3169e020594
+  ModuleB: ba8b226d0abb8c2528c5d1466d836884d03a49a0
+
+PODFILE CHECKSUM: 671326106249554399bce2c0a4f9686a06748143
+
+COCOAPODS: 1.11.2
