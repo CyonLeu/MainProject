@@ -8,6 +8,7 @@ PODS:
     - MediatorTarget
 
 DEPENDENCIES:
+  - CTMediator
   - MediatorTarget (from `~/Documents/PubLib/ModuleLib/MediatorTarget`)
   - ModuleA (from `~/Documents/PubLib/ModuleLib/ModuleA`)
   - ModuleB (from `~/Documents/PubLib/ModuleLib/ModuleB`)
@@ -26,10 +27,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
-  MediatorTarget: c278d92ddce3dd46ed944e3860dd77e5335e275f
-  ModuleA: 84f70fb57d0f7538467833c8bb7aa3169e020594
+  MediatorTarget: 00b5ed0b9dd19067a61a8d7362837aec2013fc63
+  ModuleA: a3a48e670501531f3e0682c77167f6ec4e7fdea7
   ModuleB: ba8b226d0abb8c2528c5d1466d836884d03a49a0
 
-PODFILE CHECKSUM: 671326106249554399bce2c0a4f9686a06748143
+PODFILE CHECKSUM: 10a7f17131a819acdfff69f7815ef8f889f7dd24
 
 COCOAPODS: 1.11.2

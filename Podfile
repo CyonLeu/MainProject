@@ -6,7 +6,7 @@ target 'MainProject' do
   use_frameworks!
 
   # Pods for MainProject
-
+pod 'CTMediator'
 pod 'MediatorTarget', :path => '~/Documents/PubLib/ModuleLib/MediatorTarget'
 
 pod 'ModuleA', :path => '~/Documents/PubLib/ModuleLib/ModuleA'
